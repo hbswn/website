@@ -46,7 +46,9 @@ De leden krijgen na de uitleg de gelegenheid om te stemmen. Deze keer is het ook
 
 ## Programma en borrel
 
-Na de ALV hervatten we het programma en sluiten we deze uiteindelijk af met een keynote gegeven door [Jan Christiaan van Winkel]({{< relref "/organisatie/personen/jan-christiaan-van-winkel.md" >}}). Met een drankje en bittergarnituur bereiken we het einde van de dag.
+Na de ALV hervatten we het programma, met diverse lezingen.
+
+De laatste lezing van de dag is de keynote van [Jan Christiaan van Winkel]({{< relref "/organisatie/personen/jan-christiaan-van-winkel.md" >}}). Met een drankje en bittergarnituur bereiken we het einde van de dag.
 
 Het was wederom een geslaagde conferentie! Met dank aan de sprekers, ruim 200 bezoekers, de actieve leden en natuurlijk onze sponsoren.
 
