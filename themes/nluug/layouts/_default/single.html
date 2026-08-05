@@ -1,14 +1,7 @@
 {{ define "main" }}
-  {{ if eq .Params.toc true }}
-  <div class="hl-toc">{{ .TableOfContents }}</div>
-  {{ end }}
-
-  <div>{{ .Content }}</div>
-
 {{ if .IsTranslated }}
 <aside>
-  <h2 lang="en">Page translation</h2>
-  <div lang="en">This page is also available in the following translations:</div>
+  <div lang="en">This page is also available in the following languages:</div>
   <nav>
     {{ range .Translations }}
       {{ if eq .Language.Lang "en" }}🇬🇧
@@ -19,5 +12,16 @@
   </nav>
 </aside>
 {{ end }}
+  {{ if eq .Params.toc true }}
+
+  <div class="hl-toc">
+	  {{ if eq .Language.Lang "nl" }}<h2>Inhoudsopgave</h2>
+	  {{ else if eq .Language.Lang "en" }}<h2>Table of Contents</h2>
+	  {{ end }}
+	  {{ .TableOfContents }}</div>
+  {{ end }}
+
+  <div>{{ .Content }}</div>
+
 
 {{ end }}
