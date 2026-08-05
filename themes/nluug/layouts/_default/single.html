@@ -7,7 +7,7 @@
       {{ if eq .Language.Lang "en" }}🇬🇧
       {{ else if eq .Language.Lang "nl" }}🇳🇱
       {{ end }}
-      <a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+      <a href="{{ .Permalink }}">{{ .Language.Label }}</a>
     {{ end}}
   </nav>
 </aside>

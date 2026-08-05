@@ -168,14 +168,6 @@
         </tr>
         <tr>
           <td headers="website-language key">
-            Geconfigureerde talen
-          </td>
-          <td headers="website-language value">
-            {{ .Site.Languages }}
-          </td>
-        </tr>
-        <tr>
-          <td headers="website-language key">
             Taal
           </td>
           <td headers="website-language value">
@@ -195,7 +187,7 @@
             Gekozen taal
           </td>
           <td headers="website-language value">
-            {{ .Site.Language.Lang }} (naam: {{ .Site.Language.LanguageName }}, gewicht: {{ .Site.Language.Weight }})
+            {{ .Site.Language.Lang }} (naam: {{ .Site.Language.Label }}, gewicht: {{ .Site.Language.Weight }})
           </td>
         </tr>
     </tbody>

@@ -32,7 +32,7 @@
   </div>
   <div class="grid-third">
   <section>
-    {{ $upcoming_events := sort .Site.Data.evenementen.kalender "date_start" "asc" }}
+    {{ $upcoming_events := sort hugo.Data.evenementen.kalender "date_start" "asc" }}
 
     <h2>{{ i18n "header_upcoming_events" | default "Aankomende evenementen" }}</h2>
     {{ range $upcoming_events }}
