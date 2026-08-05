@@ -6,7 +6,7 @@
  "name": "{{ .Title | default .Site.Params.textEmptyValue }}",
  "datePublished": {{ .Date }},
  "dateModified": {{ .Lastmod }},
- "inLanguage": "{{ .Site.LanguageCode }}",
+ "inLanguage": "{{ .Site.Language.Locale }}",
  {{ if .Params.review.reviewed_by }}
    {{ if findRE `^[a-z]+(\-[a-z]+)+$` .Params.review.reviewed_by 1 }}
      {{ with (index $.Site.Data.personen .Params.review.reviewed_by) }}

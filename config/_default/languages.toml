@@ -1,7 +1,7 @@
 [nl]
-  languageName = "Nederlands"
+  label = "Nederlands"
   weight = 1
 
 [en]
-  languageName = "English"
+  label = "English"
   weight = 2

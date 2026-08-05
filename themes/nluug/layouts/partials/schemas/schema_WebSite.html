@@ -14,7 +14,7 @@
   "alternateName": "{{ .Site.Title  | default .Site.Params.textNoTitle }}",
   "headline": "{{ .Site.Params.description | default .Site.Params.textNoTitle }}",
 {{ if .Site.Params.imageurl }}"image": "{{ .Site.Params.imageurl | absURL | default .Site.Params.textNoTitle }}",{{ end }}
-  "inLanguage": "{{ .Site.LanguageCode }}",
+  "inLanguage": "{{ .Site.Language.Locale }}",
   "author": "{{ .Site.Params.author | default .Site.Params.textNoValue }}",
   "description": "{{ .Site.Params.description }}",
   "disambiguatingDescription": "{{ .Site.Params.description | default .Site.Params.textNoValue }}",

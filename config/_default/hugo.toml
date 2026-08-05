@@ -3,7 +3,7 @@
 baseURL = "https://nluug.nl/"
 
 # Talen
-languageCode = "nl"
+locale = "nl"
 defaultContentLanguage = "nl"
 title = "NLUUG"
 theme = "nluug"

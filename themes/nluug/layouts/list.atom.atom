@@ -1,8 +1,7 @@
 {{- $posts := where .Site.RegularPages.ByDate.Reverse "Type" "posts" | first 10 -}}
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    {{- $author := or (.Site.Params.author) (.Site.Author.name) -}}
-    {{- $language := or (.Site.LanguageCode) (.Site.Language.Lang) -}}
+    {{- $language := or (.Site.Language.Locale) (.Site.Language.Lang) -}}
     <title>{{ .Site.Title }}</title>
     <description>{{ .Site.Params.description }}</description>
     <link>{{ absURL "" }}</link>

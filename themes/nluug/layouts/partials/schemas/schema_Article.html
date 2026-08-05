@@ -6,7 +6,7 @@
  "datePublished": {{ .Date }},
  "dateModified": {{ .Lastmod }},
  "wordCount": {{ .WordCount }},
- "inLanguage": "{{ .Site.LanguageCode }}",
+ "inLanguage": "{{ .Site.Language.Locale }}",
  "isPartOf": {
   "@context": "https://schema.org",
   "@type": "WebPage",
@@ -15,7 +15,7 @@
    "datePublished": {{ .Date }},
    "dateModified": {{ .Lastmod }},
    "description": "{{ .Params.description }}",
-   "inLanguage": "{{ .Site.LanguageCode }}",
+   "inLanguage": "{{ .Site.Language.Locale }}",
    {{ if .Params.review.reviewed_by }}
      {{ if findRE `^[a-z]+(\-[a-z]+)+$` .Params.review.reviewed_by 1 }}
        {{ with (index $.Site.Data.personen .Params.review.reviewed_by) }}
