@@ -13,6 +13,7 @@ slug:
 tags:
 - cfp
 title: "Call for Proposals (CFP)"
+toc: true
 is_event: false
 ---
 

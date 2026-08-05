@@ -13,6 +13,7 @@ url: events/nluug/cfp/
 tags:
 - cfp
 title: "Call for Proposals (CFP)"
+toc: true
 is_event: false
 ---
 
