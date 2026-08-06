@@ -1,0 +1,21 @@
+id: nluug-2026-najaarsevenement
+date_start: 2026-11-26
+date_end: 2026-11-26
+event_address:
+  street_address: Mekelweg 5
+  postal_code: 2628 CC
+  city: Delft
+  country: NL
+event_start: 2026-11-26T12:00:00+01:00
+event_end: 2026-11-26T18:00:00+01:00
+event_attendance_mode: offline
+event_free_access: false
+event_is_online: false
+event_organizer: NLUUG
+event_organizer_url: https://nluug.nl/
+event_url: "/evenementen/nluug/najaarsevenement-2026/"
+event_location: Aula TU Delft 
+event_timezone: Europe/Amsterdam
+name: NLUUG najaarsevenement 2026
+nluug_event: true
+highlight_on_homepage: true
