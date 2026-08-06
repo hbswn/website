@@ -6,8 +6,8 @@ event_address:
   postal_code: 2628 CC
   city: Delft
   country: NL
-event_start: 2026-11-26T12:00:00+01:00
-event_end: 2026-11-26T18:00:00+01:00
+event_start: 2026-11-26T14:00:00+01:00
+event_end: 2026-11-26T17:00:00+01:00
 event_attendance_mode: offline
 event_free_access: false
 event_is_online: false
